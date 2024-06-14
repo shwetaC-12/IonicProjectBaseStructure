@@ -1,0 +1,39 @@
+1.To Dowanload ionic Globally.This Command is use
+
+npm install -g @ionic/cli
+
+
+2.To Create ionic Project. This command is use
+
+ionic start Your-Project-Name blank --type=angular
+
+3. To add specific angular version follow this command
+
+	i) npm uninstall @angular/animations @angular/cli @angular/common @angular/compiler @angular/core @angular/forms @angular/platform-browser @angular/platform-browser-	   dynamic @angular/router --legacy-peer-deps
+	ii) npm install @angular/animations@17 @angular/cli@17 @angular/common@17 @angular/compiler@17 @angular/core@17 @angular/forms@17 @angular/platform-browser@17 	  	    @angular/platform-browser-dynamic@17 @angular/router@17 --legacy-peer-deps
+	iii) npm install @angular-devkit/build-angular@17 @angular-eslint/builder@17 @angular-eslint/eslint-plugin@17 @angular-eslint/eslint-plugin-template@17 @angular-	     eslint/schematics@17 @angular-eslint/template-parser@17 @angular/compiler-cli@17 @angular/language-service@17 @typescript-eslint/eslint-plugin@6 @typescript-	     eslint/parser@6 --legacy-peer-deps
+
+	Check req. versions
+		npm list @angular/core
+
+
+4.To Build the project. This command is use
+
+ionic build
+
+
+5.to add androd,ios and capacitor. This command is use
+
+ionic capacitor add android
+ionic capacitor add ios
+
+6.To build or update apk.This command is use--
+
+ionic capacitor build android
+ionic capacitor build ios
+
+
+7.To run apk in android studio
+
+ionic capacitor run android  -- Open in android studio
+ionic capacitor run ios	     -- open in xcode studio

@@ -1,0 +1,7 @@
+{
+  "name": "BaseStructure",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
